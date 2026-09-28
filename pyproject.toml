@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vessel-repair"
+version = "0.1.0"
+description = "Post-process binary vessel masks to reconnect broken components (Mind the Gap–inspired)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Mohammed El Amine Mokhtari", email = "mohammed@pycad.co" }]
+dependencies = ["numpy", "scipy", "scikit-image", "nibabel"]
+
+[project.urls]
+Homepage = "https://github.com/amine0110/mind-the-gap-vessel-repair"
+Paper = "https://arxiv.org/abs/2609.29779"
+
+[project.scripts]
+vessel-repair = "vessel_repair.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vessel_repair*"]
