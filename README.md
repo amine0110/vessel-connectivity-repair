@@ -10,6 +10,24 @@ Public author code was not available when I tried this. I gave the paper descrip
 
 Write-up on the PYCAD side: [Broken vessel mask in, connected overlay out](https://pycad.co/blog/broken-vessel-mask-in-connected-overlay-out-centerlines-graphs/).
 
+
+## Visual results (real vessel mask)
+
+Independent experiment on a single-class clinical vessel mask (not from the paper authors). Cyan = original foreground, red = voxels added by repair.
+
+![Real experiment: before / after / bridges](docs/images/real_experiment.png)
+
+**Same case — MIP overview** (repairs in red):
+
+![MIP with repair bridges](docs/images/mip_before_after_style.png)
+
+**Largest bridge clusters (close-ups):**
+
+![Bridge close-ups](docs/images/bridge_closeups.png)
+
+On this example: **43 → 2** connected components with about **2.1%** added foreground (default settings). Always QC bridges visually on your own data.
+
+
 ## What it does
 
 **Input:** binary vessel NIfTI (or any `>0` foreground)  
