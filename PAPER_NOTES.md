@@ -1,4 +1,4 @@
-# Mind the Gap — Condensed Method Notes (arXiv:2609.29779)
+# Method notes from arXiv:2609.29779 (for context only)
 
 **Paper:** Drwiega, Szymanski, Wodzinski — *Mind the Gap: Mesh-Guided Repair of Broken Vessels* (arXiv:2609.29779, Sep 2026).  
 **Blog:** https://pycad.co/blog/broken-vessel-mask-in-connected-overlay-out-centerlines-graphs/

@@ -13,7 +13,7 @@ authors = [{ name = "Mohammed El Amine Mokhtari", email = "mohammed@pycad.co" }]
 dependencies = ["numpy", "scipy", "scikit-image", "nibabel"]
 
 [project.urls]
-Homepage = "https://github.com/amine0110/mind-the-gap-vessel-repair"
+Homepage = "https://github.com/amine0110/vessel-connectivity-repair"
 Paper = "https://arxiv.org/abs/2609.29779"
 
 [project.scripts]
